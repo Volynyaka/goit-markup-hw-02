@@ -1,7 +1,11 @@
 body{
 background-color: #FFF;
 }
-.logo {
-    color: #4D5AE5;
+.logo-link {
+    color:#4D5AE5 ;
 }
+.some-class {
+    color: #2E2F42;
+}
+
 
