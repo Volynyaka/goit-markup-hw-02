@@ -100,6 +100,8 @@ body {
   background-color: var(--pressed-state);
 }
 
+/* Our Preference */
+
 .subtitle {
   font-family: Roboto;
   font-size: 20px;
@@ -118,6 +120,8 @@ body {
   letter-spacing: 0.32px;
   color: var(--text);
 }
+
+/* What are we doing */
 .title-text {
   font-family: Roboto;
   font-size: 36px;
@@ -127,6 +131,8 @@ body {
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
+
+/* Our team */
 .team {
   background-color: var(--light);
 }
@@ -172,9 +178,28 @@ body {
 }
 
 .page-footer .text {
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
   color: var(--light);
+}
+
+/* Portfolio */
+/* Foto-list */
+.foto-list .title-text{
+  font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 120% */
+letter-spacing: 0.4px;
+color: var(--dark);
+}
+.foto-list .text{
+  font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+letter-spacing: 0.32px;
+color: var(--text);
 }
