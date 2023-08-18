@@ -32,6 +32,7 @@ body {
 }
 .header .some-class {
   color: var(--dark);
+  text-decoration: none;
 }
 .logo-link {
   font-family: "Raleway", sans-serif;
