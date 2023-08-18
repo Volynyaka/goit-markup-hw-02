@@ -14,7 +14,7 @@
 }
 body {
   background-color: var(--white-background);
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   letter-spacing: 2%;
   line-height: 24px;
   color: var(--text);
@@ -34,11 +34,10 @@ body {
   color: var(--dark);
 }
 .logo-link {
-  font-family: Raleway, sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
-  font-style: normal;
   font-weight: 800;
-  line-height: 21px; /* 116.667% */
+  line-height: 21px;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
@@ -46,9 +45,7 @@ body {
 
 .nav-link {
   color: var(--dark);
-  font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.32px;
@@ -77,22 +74,21 @@ body {
   background-color: var(--hero-background);
 }
 .hero-title {
-  font-family: Roboto;
   font-size: 56px;
-  font-style: normal;
   font-weight: 700;
-  line-height: 60px; /* 107.143% */
+  line-height: 60px;
   letter-spacing: 1.12px;
+  text-align: center;
+
   color: var(--white-background);
 }
 /* Button */
 .btn-order {
+  color: var(--white-background);
   background-color: var(--primary-brand);
-  font-family: roboto;
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 24px; /* 150% */
+  line-height: 24px;
   letter-spacing: 0.64px;
 }
 .btn-order:hover,
@@ -103,33 +99,29 @@ body {
 /* Our Preference */
 
 .subtitle {
-  font-family: Roboto;
   font-size: 20px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 24px; /* 120% */
+  line-height: 24px;
   letter-spacing: 0.4px;
   color: var(--dark);
 }
 .subtitle .text {
-  font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 150% */
+  line-height: 24px;
   letter-spacing: 0.32px;
   color: var(--text);
 }
 
 /* What are we doing */
 .title-text {
-  font-family: Roboto;
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: 40px; /* 111.111% */
+  line-height: 40px;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+  text-align: center;
 }
 
 /* Our team */
@@ -139,26 +131,24 @@ body {
 
 .team-list .subtitle {
   font-size: 20px;
-  font-style: normal;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.4px;
+  text-align: center;
   color: var(--dark);
 }
 
 .team-list .text {
-  font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 150% */
+  line-height: 24px;
   letter-spacing: 0.32px;
+  text-align: center;
   color: var(--text);
 }
 
 /* Footer */
 .page-footer {
   background-color: var(--dark);
-  width: 1440px;
-  height: 312px;
 }
 
 .page-footer .logo-link {
@@ -168,38 +158,50 @@ body {
   color: var(--light);
 }
 .logo-link {
-  font-family: Raleway, sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
-  font-style: normal;
   font-weight: 800;
-  line-height: 21px; /* 116.667% */
+  line-height: 21px;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
 
 .page-footer .text {
-  font-size: 16px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 150% */
+  line-height: 24px;
   letter-spacing: 0.32px;
   color: var(--light);
 }
 
 /* Portfolio */
 /* Foto-list */
-.foto-list .title-text{
+
+.foto-list .title-text {
   font-size: 20px;
-font-style: normal;
-font-weight: 500;
-line-height: 24px; /* 120% */
-letter-spacing: 0.4px;
-color: var(--dark);
-}
-.foto-list .text{
   font-style: normal;
-font-weight: 400;
-line-height: 24px; /* 150% */
-letter-spacing: 0.32px;
-color: var(--text);
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+  color: var(--dark);
+}
+.foto-list .text {
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  color: var(--text);
+}
+
+/* List-btn */
+
+.btn-list {
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.64px;
+  color: var(--primary-brand);
+}
+
+.btn-list:hover,
+.btn-list:focus {
+  color: var(--white-background);
+  background-color: var(--pressed-state);
 }
