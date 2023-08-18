@@ -27,21 +27,20 @@ body {
 
 /* Logo */
 
-.logo-link {
-  color: var(--primary-brand);
-  text-decoration: none;
-}
-.header .some-class {
+
+  
+
+.logo .some-class{
   color: var(--dark);
 }
-.logo-link {
+.logo {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  text-decoration: none;
+  color: var(--primary-brand);
 }
 /* Navigation menu */
 
@@ -65,6 +64,7 @@ body {
   text-decoration: none;
   line-height: 1, 5;
   letter-spacing: 0.32px;
+  font-style: normal;
   color: var(--text);
 }
 .list .address-link:active {
@@ -154,10 +154,10 @@ body {
   background-color: var(--dark);
 }
 
-.page-footer .logo-link {
+.logo-link {
   color: var(--primary-brand);
 }
-.some-class {
+.logo-link .some-class {
   color: var(--light);
 }
 .logo-link {
