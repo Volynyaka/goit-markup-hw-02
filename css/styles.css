@@ -27,12 +27,6 @@ body {
 
 /* Logo */
 
-
-  
-
-.logo .some-class{
-  color: var(--dark);
-}
 .logo {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -40,8 +34,14 @@ body {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  text-decoration: none;
   color: var(--primary-brand);
 }
+
+.logo .some-class{
+  color: var(--dark);
+}
+
 /* Navigation menu */
 
 .nav-link {
@@ -154,13 +154,13 @@ body {
   background-color: var(--dark);
 }
 
-.logo-link {
+ .page-footer.logo{
   color: var(--primary-brand);
 }
-.logo-link .some-class {
+.page-footer .some-class {
   color: var(--light);
 }
-.logo-link {
+.logo{
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
