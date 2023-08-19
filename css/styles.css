@@ -41,6 +41,10 @@ body {
 .logo .some-class{
   color: var(--dark);
 }
+.logo:hover,
+.logo:focus{
+  color: var(--pressed-state);
+}
 
 /* Navigation menu */
 
