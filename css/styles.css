@@ -41,11 +41,6 @@ body {
 .logo .some-class{
   color: var(--dark);
 }
-.logo:hover,
-.logo:focus{
-  color: var(--pressed-state);
-}
-
 /* Navigation menu */
 
 .nav-link {
@@ -77,12 +72,16 @@ body {
 
 .address-link {
   text-decoration: none;
-  line-height: 1, 5;
+  line-height: 1.5;
   letter-spacing: 0.32px;
   font-style: normal;
   color: var(--text);
 }
 .list .address-link:active {
+  color: var(--pressed-state);
+}
+.list .address-link:hover,
+.list .address-link:focus{
   color: var(--pressed-state);
 }
 
