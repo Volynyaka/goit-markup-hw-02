@@ -58,7 +58,17 @@ body {
   color: var(--pressed-state);
 }
 
+.navigation-list .nav-link:hover,
+.navigation-list .nav-lnk:focus{
+  color: var(--pressed-state);
+
+}
+
 /* address */
+
+.address-list{
+  font-style: normal;
+}
 
 .address-link {
   text-decoration: none;
