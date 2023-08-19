@@ -54,12 +54,13 @@ body {
   text-decoration: none;
 }
 
+
 .navigation-list .nav-link:active {
   color: var(--pressed-state);
 }
 
 .navigation-list .nav-link:hover,
-.navigation-list .nav-lnk:focus{
+.navigation-list .nav-link:focus{
   color: var(--pressed-state);
 
 }
