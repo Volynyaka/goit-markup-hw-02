@@ -32,13 +32,6 @@ body {
 /* Logo */
 
 .logo {
-  /* font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 1.17;
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
-  text-decoration: none; */
   color: var(--primary-brand);
 }
 
@@ -228,10 +221,14 @@ text-align: center;
 /* List-btn */
 
 .btn-list {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.64px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: var(--light);
   color: var(--primary-brand);
+  cursor: pointer;
 }
 
 .btn-list:hover,
