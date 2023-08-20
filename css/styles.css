@@ -128,25 +128,41 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
   color: var(--text);
 }
 
 /* What are we doing */
 .title-text {
+  color: var(--dark);
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: 40px;
-  letter-spacing: 0.72px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
 }
 
 /* Our team */
-.team {
+.team{
   background-color: var(--light);
 }
+
+.team .title-text{
+  color: var(--dark);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+
+}
+
+.team-foto{
+  background-color: var(--white-background);
+}
+
 
 .team-list .subtitle {
   font-size: 20px;
