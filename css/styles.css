@@ -133,10 +133,10 @@ body {
 }
 
 /* What are we doing */
-.title-text {
+
+.actions .title-text {
   color: var(--dark);
   font-size: 36px;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.72px;
@@ -156,7 +156,7 @@ body {
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
-
+text-align: center;
 }
 
 .team-foto{
