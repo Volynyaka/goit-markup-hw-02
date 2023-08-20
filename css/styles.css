@@ -121,14 +121,14 @@ body {
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.4px;
   color: var(--dark);
 }
 .subtitle .text {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 0.02em;
+  letter-spacing: 24px;
   color: var(--text);
 }
 
@@ -139,7 +139,7 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: 1.11;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.72px;
   text-transform: capitalize;
   text-align: center;
 }
